@@ -23,7 +23,7 @@ The organization determined that `other` shouldn't have write access to any of t
 
 ![Image2](img/002.png)
 
-I used the `chmod` command with 2 arguments: `o-w` and `project_k.txt`. The `chmod` command changes permissions for files and directories. The first argument indicates how to change permissions (take write permission from other) and the second is our target file.
+I used the `chmod` command with 2 arguments: `o-w` and `project_k.txt`. The `chmod` command changes permissions on files and directories. The first argument indicates how to change permissions (take write permission from other) and the second is our target file.
 Then, I used the `ls` command with `-la` option to check whether the command was successful.
 
 ![Image3](img/003.png)
